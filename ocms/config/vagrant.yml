@@ -1,0 +1,67 @@
+shared:
+  box: ol65
+  non_rotational: 'on'
+  asm_disk_1: c:\Vbox\shared\asm_disk_1.vdi
+  asm_disk_2: c:\Vbox\shared\asm_disk_2.vdi
+  asm_disk_3: c:\Vbox\shared\asm_disk_3.vdi
+  asm_disk_4: c:\Vbox\shared\asm_disk_4.vdi
+  asm_disk_size: 5
+
+dns:
+  vm_name: ol65_dns
+  mem_size: 1024
+  cpus: 1
+  public_ip: 192.168.56.100
+
+rac1:
+  vm_name: ol65_121_rac1
+  mem_size: 6144
+  cpus: 2
+  public_ip: 192.168.56.101
+  private_ip: 192.168.1.101
+  u01_disk: D:\VirtualBox VMs\shared\ol65_121_rac1_u01.vdi
+
+rac2:
+  vm_name: ol65_121_rac2
+  mem_size: 6144
+  cpus: 2
+  public_ip: 192.168.56.102
+  private_ip: 192.168.1.102
+  u01_disk: D:\VirtualBox VMs\shared\ol65_121_rac2_u01.vdi
+
+rac3:
+  vm_name: ol65_121_rac3
+  mem_size: 4096
+  cpus: 1
+  public_ip: 192.168.56.111
+  private_ip: 192.168.1.111
+  u01_disk: D:\VirtualBox VMs\shared\ol65_121_rac3_u01.vdi
+
+rac4:
+  vm_name: ol65_121_rac4
+  mem_size: 4096
+  cpus: 1
+  public_ip: 192.168.56.112
+  private_ip: 192.168.1.112
+  u01_disk: D:\VirtualBox VMs\shared\ol65_121_rac4_u01.vdi
+
+oms:
+  vm_name: ol65_121_oms
+  mem_size: 10240
+  cpus: 2
+  public_ip: 192.168.56.110
+  u01_disk: c:\Vbox\shared\ol65_121_oms_u01.vdi
+
+srv1:
+  vm_name: ol65_121_srv1
+  mem_size: 6144
+  cpus: 2
+  public_ip: 192.168.56.108
+  u01_disk: D:\VirtualBox VMs\shared\ol65_121_srv1_u01.vdi
+
+srv2:
+  vm_name: ol65_121_srv2
+  mem_size: 6144
+  cpus: 2
+  public_ip: 192.168.56.109
+  u01_disk: D:\VirtualBox VMs\shared\ol65_121_srv2_u01.vdi
