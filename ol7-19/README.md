@@ -22,9 +22,9 @@ Za pierwszym razem maszyna będzie inicjalizowana (potrzeby dostęp do Internetu
 Potem polecenie uruchamia maszynę
 
 stop
-Zatrzymanie maszyny vagrant halt
+Zatrzymanie maszyny 'vagrant halt'
 
 Zalogowanie do maszyny:
-vagrant ssh potem "sudo su - oracle"
+'vagrant ssh' potem 'sudo su - oracle'
 
-W katalog /vagrant w maszynie jest podlinkowany pod vagrant w katalogu lokalnym
+Katalog /vagrant na maszynie wirtualnej jest podlinkowany pod vagrant w katalogu lokalnym.
