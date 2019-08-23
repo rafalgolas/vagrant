@@ -17,14 +17,17 @@ Można go pobrać wydając komendę "vagrant box add --name ol76 https://yum.ora
 
 Podstawowe komendy:
 start
+
 Maszynę uruchamiamy wydając w katalogu maszyny ol7-19 polecenie 'vagrant up'
 Za pierwszym razem maszyna będzie inicjalizowana (potrzeby dostęp do Internetu)
 Potem polecenie uruchamia maszynę
 
 stop
+
 Zatrzymanie maszyny 'vagrant halt'
 
 Zalogowanie do maszyny:
+
 'vagrant ssh' potem 'sudo su - oracle'
 
 Katalog /vagrant na maszynie wirtualnej jest podlinkowany pod vagrant w katalogu lokalnym.
